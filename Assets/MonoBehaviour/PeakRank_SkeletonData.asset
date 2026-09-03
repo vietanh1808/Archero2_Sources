@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aecae2a74e033ea0f3031a0758bd00be, type: 3}
+  m_Name: PeakRank_SkeletonData
+  m_EditorClassIdentifier:
+  atlasAssets:
+  - {fileID: 11400000, guid: 005b549ccf0fb3f4db8acf6fd3c01280, type: 2}
+  scale: 0.01
+  skeletonJSON: {fileID: 4900000, guid: 49b47c6bc15ecb14b91b54641201453a, type: 3}
+  isUpgradingBlendModeMaterials: 0
+  blendModeMaterials:
+    requiresBlendModeMaterials: 1
+    applyAdditiveMaterial: 1
+    additiveMaterials:
+    - pageName: PeakRank.png
+      material: {fileID: 2100000, guid: cbad4eeed69991248a45c477af1ad6fa, type: 2}
+    multiplyMaterials: []
+    screenMaterials:
+    - pageName: PeakRank.png
+      material: {fileID: 2100000, guid: a9c6ffba86b6372489d68977f03c7e21, type: 2}
+  skeletonDataModifiers: []
+  fromAnimation: []
+  toAnimation: []
+  duration: []
+  defaultMix: 0.2
+  controller: {fileID: 0}

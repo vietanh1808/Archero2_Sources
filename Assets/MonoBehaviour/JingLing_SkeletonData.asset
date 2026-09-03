@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aecae2a74e033ea0f3031a0758bd00be, type: 3}
+  m_Name: JingLing_SkeletonData
+  m_EditorClassIdentifier:
+  atlasAssets:
+  - {fileID: 11400000, guid: 29a8ae791407e3d4893c5e99f93e7afa, type: 2}
+  scale: 0.01
+  skeletonJSON: {fileID: 4900000, guid: 790e9ed9a974a384f9dc280a35b1cd35, type: 3}
+  isUpgradingBlendModeMaterials: 0
+  blendModeMaterials:
+    requiresBlendModeMaterials: 1
+    applyAdditiveMaterial: 1
+    additiveMaterials:
+    - pageName: JingLing.png
+      material: {fileID: 2100000, guid: 2a832c24e092c7d4f815e0f81015fe47, type: 2}
+    multiplyMaterials:
+    - pageName: JingLing.png
+      material: {fileID: 2100000, guid: 53896a4968fe2e048bc1e48d8b44997d, type: 2}
+    screenMaterials:
+    - pageName: JingLing.png
+      material: {fileID: 2100000, guid: ed8d8005615ecfd4eaa33c0d9905ccab, type: 2}
+  skeletonDataModifiers: []
+  fromAnimation: []
+  toAnimation: []
+  duration: []
+  defaultMix: 0.2
+  controller: {fileID: 0}
