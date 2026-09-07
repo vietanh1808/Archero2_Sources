@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: pubu121_alpha_kuai
+  m_Shader: {fileID: 4800000, guid: 7e7b6b089581cce4396c42e632f152d0, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - ENABLE_DISTORT
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties:
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _DissolveMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _DistortMap:
+        m_Texture: {fileID: 2800000, guid: 991e08715df8e32429197e0ad826a005, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _MainTex:
+        m_Texture: {fileID: 2800000, guid: 6d7cfae339eb40c42968fdedb3f62210, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 1, y: 0}
+      _MaskMap:
+        m_Texture: {fileID: 2800000, guid: 1f75b7c65a8301149b188613e34597e6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _SecondaryDistortMap:
+        m_Texture: {fileID: 2800000, guid: 93c00dba12c8413499a166681f37ea8d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _SecondaryTex:
+        m_Texture: {fileID: 2800000, guid: c575fb33b0ef30641bccf817f7d75fe2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0.3, y: 0}
+    m_Ints: {}
+    m_Floats:
+      _Clip: 0
+      _ColorFactor: 3.36
+      _Cull: 0
+      _CullMode: 1
+      _Dissolve: 0
+      _DissolveEdge: 0.1
+      _DissolveFactor: 0.5
+      _Distort: 1
+      _DistortFactor: 0.086
+      _DstBlend: 10
+      _DstBlendAlpha: 10
+      _EnableProjector: 0
+      _EnableSecondaryTex: 0
+      _IsParticle: 0
+      _Mask: 0
+      _Mode: 2
+      _Rim: 0
+      _SecondAdd: 0
+      _SrcBlend: 5
+      _SrcBlendAlpha: 1
+      _Stencil: 0
+      _StencilComp: 8
+      _StencilOp: 0
+      _StencilReadMask: 255
+      _StencilWriteMask: 255
+      _Ztest: 4
+      _rimFactor: 1
+      _rimPower: 5
+    m_Colors:
+      _DissolveEdgeColor: {r: 1, g: 1, b: 1, a: 1}
+      _MainTexUVAni: {r: 0, g: 1.3, b: 0, a: 0}
+      _TintColor: {r: 0.16834283, g: 0.3679245, b: 0.33561128, a: 0.597}
+      _UVAnination: {r: 0.1, g: 0.2, b: -0.1, a: 0.2}
+      _rimColor: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
